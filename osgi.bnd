@@ -1,5 +1,6 @@
 #-----------------------------------------------------------------
 # Use this file to add customized Bnd instructions for the bundle
 #-----------------------------------------------------------------
-Import-Package: *;resolution:=optional
+Import-Package: org.apache.commons.logging.*,*;resolution:=optional
 Include-Resource: {maven-resources}
+Export-Package: org.apache.commons.codec.*,org.apache.http.*
